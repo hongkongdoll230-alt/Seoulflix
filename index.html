@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SeoulFlix</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="top-bar">
+
+    <a href="index.html" class="logo">
+        <img src="images/seoulflix-logo.png" alt="SeoulFlix">
+    </a>
+
+    <button class="menu-btn" id="menu-btn">
+        ☰
+    </button>
+
+</div>
+
+<nav class="hamburger-menu" id="hamburger-menu">
+
+    <a href="category.html">📂 Category</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="account.html">👤 Account</a>
+
+</nav>
+
+<div class="search-container">
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search movies & TV shows..."
+    >
+
+</div>
+
+
+<main>
+
+    <!-- Search Results -->
+    <section class="search-results">
+
+        <div class="section-title">
+            <h2>Search Results</h2>
+        </div>
+
+        <div class="movie-list" id="search-list">
+
+        </div>
+
+    </section>
+
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <h1>Welcome to SeoulFlix</h1>
+
+        <p>
+            Discover K-Dramas, Anime, Novels and more.
+        </p>
+
+<button onclick="window.location.href='kdramas.html'">
+    Explore Now
+</button>
+
+    </section>
+
+
+    <!-- Main Navigation -->
+    <section class="quick-nav">
+
+        <a href="index.html">🏠 Home</a>
+
+        <a href="kdramas.html">🇰🇷 K-Dramas</a>
+
+        <a href="anime.html">🎌 Anime</a>
+
+        <a href="novels.html">📚 Novels</a>
+
+        <a href="quiz.html">🧠 Quiz</a>
+
+        <a href="news.html">📰 News</a>
+
+        <a href="watchlist.html">🔖 Watchlist</a>
+
+    </section>
+
+
+    <!-- Popular Movies -->
+    <section class="movies">
+
+        <div class="section-title">
+            <h2>Popular Movies</h2>
+          <a href="index.html">Popular</a>
+        </div>
+
+        <div class="movie-list" id="movie-list">
+
+        </div>
+
+    </section>
+
+
+    <!-- Trending K-Dramas -->
+    <section class="tv-shows">
+
+        <div class="section-title">
+            <h2>Trending K-Dramas</h2>
+            <a href="kdramas.html">View All</a>
+        </div>
+
+        <div class="movie-list" id="tv-list">
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
